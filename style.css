@@ -1,0 +1,49 @@
+body {
+  /*Background color (*/
+  background:
+  radial-gradient(black 15%, transparent 16%) 0 0,
+  radial-gradient(black 15%, transparent 16%) 8px 8px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-color:#282828;
+  background-size:16px 16px;
+  color: lightgrey;
+}
+
+/*Game Module (a div)*/
+.game {
+  width: 80%;
+  border-top:5px solid #550000;
+  border-left:5px solid #550000;
+  border-right:5px solid #170000;
+  border-bottom:5px solid #170000;
+  border-radius: 10px;
+  background-color: #434444; 
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
+  padding-bottom: 500px;
+}
+
+img {
+	float: left;
+  /*padding-right: 30px;*/
+	margin: 0 auto;
+  border: 4px solid #550000;
+  border-radius: 10px;
+}
+
+.info {
+  float: left;
+	margin: 0 auto;
+  padding-left: 30px;
+  /*padding-top: 50px;*/
+}
+
+.title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.0em;
+  letter-spacing: 2px;
+  text-align: center;
+}
