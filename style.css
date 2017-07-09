@@ -1,5 +1,6 @@
 body {
-  /*Background color (*/
+  /*Background color (http://lea.verou.me/css3patterns/#
+  Carbon fibre by Atle Mo and Lea Verou)*/
   background:
   radial-gradient(black 15%, transparent 16%) 0 0,
   radial-gradient(black 15%, transparent 16%) 8px 8px,
@@ -7,12 +8,14 @@ body {
   radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
   background-color:#282828;
   background-size:16px 16px;
+  /*Font color*/
   color: lightgrey;
 }
 
 /*Game Module (a div)*/
 .game {
   width: 80%;
+  /*Boder colorations for "outset" styling*/
   border-top:5px solid #550000;
   border-left:5px solid #550000;
   border-right:5px solid #170000;
@@ -35,6 +38,7 @@ img {
 }
 
 .info {
+  /*Info div floats directly next to box art image*/
   float: left;
 	margin: 0 auto;
   padding-left: 30px;
@@ -42,8 +46,14 @@ img {
 }
 
 .title {
+  /*Game title*/
   font-family: 'Oswald', sans-serif;
   font-size: 2.0em;
   letter-spacing: 2px;
   text-align: center;
 }
+
+
+
+
+
